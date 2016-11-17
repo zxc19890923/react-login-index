@@ -1,0 +1,11 @@
+1. login.jsx 是登陆组件
+2. home.jsx是包含了首页和登录组件的界面
+
+更好的写法是应该吧home.jsx中的首页组件拆分出来的
+home.jsx
+render（） {
+  return(
+    <Index />
+    <Login />
+  )
+}
